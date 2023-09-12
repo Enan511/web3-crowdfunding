@@ -56,7 +56,7 @@ contract Campaign {
         string memory campaignTitle, 
         uint requiredCampaignAmount, 
         string memory imgURI,
-        string memory storyURI,
+        string memory storyURI
     ) {
         title = campaignTitle;
         requiredAmount = requiredCampaignAmount;
