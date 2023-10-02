@@ -6,15 +6,15 @@ const HeaderNav = () => {
     const Router = useRouter();
   return (
     <HeaderNavWrapper>
-        <Link href={'/'}><HeaderNavLinks active={Router.pathname == "/" ? true : false}>
+        <Link passHref href={'/'}><HeaderNavLinks active={Router.pathname == "/" ? true : false}>
             Campaigns
         </HeaderNavLinks></Link>
 
-        <Link href={'/createcampaign'}><HeaderNavLinks active={Router.pathname == "/createcampaign" ? true : false}>
+        <Link passHref href={'/createcampaign'}><HeaderNavLinks active={Router.pathname == "/createcampaign" ? true : false}>
             Create Campaign
         </HeaderNavLinks></Link>
 
-        <Link href={'/dashboard'}><HeaderNavLinks active={Router.pathname == "/dashboard" ? true : false}>
+        <Link passHref href={'/dashboard'}><HeaderNavLinks active={Router.pathname == "/dashboard" ? true : false}>
             Dashboard
         </HeaderNavLinks></Link>
 

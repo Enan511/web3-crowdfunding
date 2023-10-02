@@ -11,7 +11,7 @@ const Header = () => {
       <HeaderRight/>
     </HeaderWrapper>
   )
-}
+};
 
 const HeaderWrapper = styled.div`
   width: 100%;
