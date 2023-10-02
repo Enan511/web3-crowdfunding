@@ -32,4 +32,4 @@ Solve Next.js components issue:
 >>npm i --save-dev "babel-plugin-styled-components"
 
 Icon install:
->>npm i @emotion/styled @emotion/react
+>>npm i @emotion/styled @emotion/react @mui/icons-material

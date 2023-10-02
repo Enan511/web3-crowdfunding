@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import Brightness7Icon from '@mui/icons-material/Brightness7';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
-import  {App} from './layout';
+import  {App} from '../Layout';
 import { useContext } from 'react';
 import Wallet from './Wallet';
 

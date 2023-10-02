@@ -2,7 +2,6 @@ import Header from "./Header";
 import themes from './themes';
 import styled, {ThemeProvider, createGlobalStyle} from 'styled-components';
 import {useState, createContext} from 'react';
-// import { light } from "@mui/material/styles/createPalette"; // এইটা থাকার কথা না
 
 
 const App = createContext();

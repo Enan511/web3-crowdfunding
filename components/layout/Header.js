@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import HeaderLogo from './HeaderLogo'
-import HeaderNav from './HeaderNav'
-import HeaderRight from './HeaderRight'
+import HeaderLogo from './components/HeaderLogo'
+import HeaderNav from './components/HeaderNav'
+import HeaderRight from './components/HeaderRight'
 
 const Header = () => {
   return (
