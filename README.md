@@ -2,6 +2,10 @@ Commands
 
 >>npx create-next-app thesaviour
 
+or
+
+>npx create-next-app@12.1.0
+
 >>code .
 
 -In VS code install these extensions:

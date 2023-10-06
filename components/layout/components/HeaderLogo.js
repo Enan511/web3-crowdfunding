@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const HeaderLogo = () => {
   return (
     <Logo>
-        The Saviour
+        Help Lagbe!!
     </Logo>
   )
 }

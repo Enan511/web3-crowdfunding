@@ -1,7 +1,9 @@
+import Form from '../components/Form/Form';
+
 const createcampaign = () => {
   return (
     <div>
-        <center>This will be the campaign creation page.</center>
+        <Form />
     </div>
   )
 }
