@@ -2,6 +2,10 @@ Commands
 
 >>npx create-next-app thesaviour
 
+or
+
+>npx create-next-app@12.1.0
+
 >>code .
 
 -In VS code install these extensions:
@@ -33,3 +37,9 @@ Solve Next.js components issue:
 
 Icon install:
 >>npm i @emotion/styled @emotion/react @mui/icons-material
+
+Installing spinner and toastify:
+>npm i react-loader-spinner react-toastify
+
+To install file on IPFS first we need to install ipfs client
+>npm i ipfs-http-client
