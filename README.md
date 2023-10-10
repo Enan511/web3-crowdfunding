@@ -22,7 +22,7 @@ Download the Solidity file in an folder : contracts
 
 >>npx hardhat compile
 >>npm i dotenv
->>npx hardhat run scripts/deploy.js
+>>npx hardhat run scripts/deploy.js (Must be compiled before deploy)
 >>npm install @mui/material @mui/styled-engine-sc styled-components
 
 To run front end
