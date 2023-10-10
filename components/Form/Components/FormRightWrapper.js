@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-<<<<<<< HEAD
 import { FormState } from '../Form';
 import { useState, useContext } from 'react';
 import { toast } from 'react-toastify';
@@ -54,30 +53,17 @@ const FormRightWrapper = () => {
       toast.success("Files Uploaded Sucessfully")
 }
 
-=======
-
-
-const FormRightWrapper = () => {
->>>>>>> 04fe0cd510d35c873e5a58e7bd3b830acc4bfbf2
   return (
     <FormRight>
       <FormInput>
         <FormRow>
           <RowFirstInput>
             <label>Required Amount</label>
-<<<<<<< HEAD
             <Input onChange={Handler.FormHandler} value={Handler.form.requiredAmount} name="requiredAmount" type={'number'} placeholder='Required Amount'></Input>
           </RowFirstInput>
           <RowSecondInput>
             <label>Choose Category</label>
             <Select onChange={Handler.FormHandler} value={Handler.form.category} name="category">
-=======
-            <Input placeholder='Required Amount'></Input>
-          </RowFirstInput>
-          <RowSecondInput>
-            <label>Choose Category</label>
-            <Select name="category">
->>>>>>> 04fe0cd510d35c873e5a58e7bd3b830acc4bfbf2
               <option>Education</option>
               <option>Health</option>
               <option>Animal</option>
@@ -88,7 +74,6 @@ const FormRightWrapper = () => {
       {/* Image */}
       <FormInput>
         <label>Select Image</label>
-<<<<<<< HEAD
         <Image alt="dapp" onChange={Handler.ImageHandler} type={'file'} accept='image/*'>
         </Image>
       </FormInput>
@@ -100,15 +85,6 @@ const FormRightWrapper = () => {
         : <Button style={{cursor: "no-drop"}}>Files uploaded Sucessfully</Button>
       }
       <Button onClick={Handler.startCampaign}>
-=======
-        <Image type={'file'} accept='image/*'>
-        </Image>
-      </FormInput>
-        <Button>
-          Upload Submitted Files
-        </Button>
-      <Button>
->>>>>>> 04fe0cd510d35c873e5a58e7bd3b830acc4bfbf2
         Start Campaign
       </Button>
     </FormRight>
