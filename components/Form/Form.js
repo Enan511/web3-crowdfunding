@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import FormLeftWrapper from './Components/FormLeftWrapper'
 import FormRightWrapper from './Components/FormRightWrapper'
+<<<<<<< HEAD
 import { createContext, useState } from 'react';
 import {TailSpin} from 'react-loader-spinner';
 import {ethers} from 'ethers';
@@ -93,14 +94,28 @@ const Form = () => {
                     </Button>
                 </Address>
                 :
+=======
+
+
+const Form = () => {
+
+  return (
+    <FormWrapper>
+        <FormMain>
+>>>>>>> 04fe0cd510d35c873e5a58e7bd3b830acc4bfbf2
                     <FormInputsWrapper>
                         <FormLeftWrapper />
                         <FormRightWrapper />
                     </FormInputsWrapper>               
+<<<<<<< HEAD
             }
         </FormMain>
     </FormWrapper>
     </FormState.Provider>
+=======
+        </FormMain>
+    </FormWrapper>
+>>>>>>> 04fe0cd510d35c873e5a58e7bd3b830acc4bfbf2
   )
 }
 
@@ -120,6 +135,7 @@ const FormInputsWrapper = styled.div`
     margin-top:45px ;
 `
 
+<<<<<<< HEAD
 const Spinner = styled.div`
     width:100%;
     height:80vh;
@@ -156,3 +172,8 @@ const Button = styled.button`
 
 export default Form;
 export {FormState};
+=======
+
+
+export default Form;
+>>>>>>> 04fe0cd510d35c873e5a58e7bd3b830acc4bfbf2
