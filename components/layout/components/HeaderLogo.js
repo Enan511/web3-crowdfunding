@@ -1,9 +1,11 @@
 import styled from 'styled-components';
-
 const HeaderLogo = () => {
   return (
     <Logo>
-        Help Lagbe!!
+  
+       <img src="/logo.png"  
+                    alt="logo"
+                    height={150} /> 
     </Logo>
   )
 }
